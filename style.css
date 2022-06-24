@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 233, 255);
+}
+
+h1 {
+    color: rgb(62, 72, 85);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container {
+    margin: 60px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    height: 200px;
+    width: 1000px;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.photo1 {
+    background-color: rgb(94, 202, 250);
+    justify-content: space-around;
+}
+
+.photo2 {
+    background-color: rgb(202, 163, 170);
+    justify-content: space-evenly;
+}
+
+.photo3 {
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+
+h3{
+    color: rgb(62, 72, 85);
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 15px;
+}
